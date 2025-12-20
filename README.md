@@ -1,5 +1,5 @@
 # Lahti Green Infrastructure Calculator
-Collaborated with a team on the development of a risk assessment calculator web application for green roofing projects in Lahti. My task primarily focused on designing the application.
+Collaborated with a team on the development of a risk assessment calculator web application for green roofing projects in Lahti, that would correspond to the city of Lahti's 2030 Nature Positive goals. My task primarily focused on designing the application.
 
 The following files included in the repository consist of the coding done on my part. 
 
