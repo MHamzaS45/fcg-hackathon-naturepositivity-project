@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Lahti Nature Positive Design System */
+    --background: 0 0% 100%;
+    --foreground: 210 29% 24%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 29% 24%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 29% 24%;
+
+    /* Primary: Forest Green */
+    --primary: 100 47% 33%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Dark Green for gradients */
+    --primary-dark: 95 56% 20%;
+    
+    /* Accent: Bright Nature Green */
+    --accent: 88 50% 48%;
+    --accent-foreground: 0 0% 100%;
+    
+    /* Light accent background */
+    --accent-light: 120 39% 94%;
+    
+    /* Secondary: Muted backgrounds */
+    --secondary: 120 20% 96%;
+    --secondary-foreground: 210 29% 24%;
+
+    --muted: 120 20% 96%;
+    --muted-foreground: 210 10% 50%;
+
+    /* Warning: Amber */
+    --warning: 36 100% 50%;
+    --warning-foreground: 0 0% 100%;
+    
+    /* Success: Green */
+    --success: 122 39% 49%;
+    --success-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 120 15% 88%;
+    --input: 120 15% 88%;
+    --ring: 100 47% 33%;
+
+    --radius: 0.75rem;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(100 47% 33%), hsl(95 56% 20%));
+    --gradient-header: linear-gradient(90deg, hsl(100 47% 33%), hsl(95 56% 20%));
+    
+    /* Shadows */
+    --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-elevated: 0 4px 16px rgba(0, 0, 0, 0.12);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .gradient-header {
+    background: var(--gradient-header);
+  }
+  
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+  
+  .animate-fade-in-up {
+    animation: fadeInUp 0.5s ease-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .stagger-1 {
+    animation-delay: 150ms;
+  }
+  
+  .stagger-2 {
+    animation-delay: 300ms;
+  }
+  
+  .stagger-3 {
+    animation-delay: 450ms;
+  }
+}
