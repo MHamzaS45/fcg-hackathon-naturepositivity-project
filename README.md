@@ -4,13 +4,19 @@ The submission done by my team in the FCG Nature Positivity Hackathon 2025 done 
 The files for the project are included in the repositor
 -
 
+
+
 <img width="1895" height="925" alt="image" src="https://github.com/user-attachments/assets/9810e66f-538a-4881-b8bc-06acf16db6e5" />
 -
+
+
 
 Input the values you desire 
 
 <img width="1903" height="926" alt="image" src="https://github.com/user-attachments/assets/0746db3c-b788-41f1-a710-f322015f0987" />
 -
+
+
 
 Learn about your green roofing project's impact, and eligibility for funding!
 
