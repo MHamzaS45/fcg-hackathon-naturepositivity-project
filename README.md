@@ -1,8 +1,4 @@
-
-### Lahti Green Infrastructure Calculator
----
-
-<img width="111" height="97" alt="image" src="https://github.com/user-attachments/assets/8a0694fa-56de-4beb-b115-93aac39afa67" /> 
+###<img width="1195" height="146" alt="image" src="https://github.com/user-attachments/assets/9598b058-06a1-45ec-8c5a-7198d4298332" />
 ---
 
 
